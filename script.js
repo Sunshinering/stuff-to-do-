@@ -24,7 +24,7 @@ const phraseArray = [
 
   "Go for a long walk around the city",
 
-  "Do some in depth research",
+  "Do some indepth research",
 
   "Go annoy someone else",
 
@@ -49,7 +49,7 @@ btn.addEventListener("click", () => {
   } 
   else if (phraseArray[currentphraseIndex] === "Code a cute website like this") {
     link.href = "https://simple-question.vercel.app/"; 
-    link.textContent = "Here is the link to cute website.";
+    link.textContent = "Check this one out";
   } 
   else if (phraseArray[currentphraseIndex] === "Build a 3D object") {
     link.href = "https://youtu.be/dEGJeVnWZAA?si=eFZnL_b-leAlRJko"; 
@@ -60,8 +60,8 @@ btn.addEventListener("click", () => {
     link.textContent = "";
   }  
   else if (phraseArray[currentphraseIndex] === "Take a nap") {
-    link.href = "https://youtu.be/YQc4WT0yDH4?si=2c4xMwxL_1etVGm0"; 
-    link.textContent = "Here is the link to an asmr that would help with that";
+    link.href = ""; 
+    link.textContent = "";
   }  
   else if (phraseArray[currentphraseIndex] === "Create a Pinterest board") {
     link.href = ""; 
@@ -83,7 +83,7 @@ btn.addEventListener("click", () => {
     link.href = ""; 
     link.textContent = "";
   } 
-  else if (phraseArray[currentphraseIndex] === "Do some in depth resursh") {
+  else if (phraseArray[currentphraseIndex] === "Do some indepth research") {
     link.href = ""; 
     link.textContent = "";
   } 
