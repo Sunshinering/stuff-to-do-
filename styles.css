@@ -38,7 +38,7 @@ body
 .phrase{
     flex-shrink: 0;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     color:#fad0c4;
     margin-bottom: 20px;
 }
@@ -51,9 +51,10 @@ body
 .link{
 padding: 10px 25px;
 flex-shrink: 0;
-font-size: 1.5em; 
+font-size: 1em; 
 color: #0b0289; 
 margin-bottom: 40px;  
+text-align: center;
 }
 
 .btn-container {
