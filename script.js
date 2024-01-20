@@ -44,8 +44,8 @@ btn.addEventListener("click", () => {
     link.textContent = "I know a perfect one ";
   } 
   else if (phraseArray[currentphraseIndex] === "Watch a TED Talk") {
-    link.href = "https://www.youtube.com/watch?v=Qx3P2wazwI0&list=PLBlnK6fEyqRjDf_dmCEXgl6XjVKDDj0M2&index=7"; 
-    link.textContent = "Here is the link to an amazing one";
+    link.href = ""; 
+    link.textContent = "";
   } 
   else if (phraseArray[currentphraseIndex] === "Code a cute website like this") {
     link.href = "https://simple-question.vercel.app/"; 
